@@ -1,0 +1,19 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    background-image: url('../images/nasa-earth.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.event_list {
+    list-style: none;
+}
+
+.wrapper_events {
+    background: white;
+    padding:1em;
+    max-width:400px;
+}

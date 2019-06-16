@@ -1,0 +1,3 @@
+const sources = "AVO,ABFIRE,AU_BOM,BYU_ICE,BCWILDFIRE,CALFIRE,CEMS,EO,FEMA,FloodList,GDACS,GLIDE,InciWeb,IDC,JTWC,MRR,MBFIRE,NASA_ESRS,NASA_DISP,NOAA_NHC,NOAA_CPC,PDC,ReliefWeb,SIVolcano,NATICE,UNISYS,USGS_EHP,USGS_CMT,HDDS,DFES_WA"
+const eonetURL    = `https://eonet.sci.gsfc.nasa.gov/api/v2.1/events?api_key=Lvq2wzAwzC6r8gvvb052EFxKH1boCbSescq0iLIu&limit=20&sources=${sources}`
+const nasaURL     = "https://api.nasa.gov/planetary/apod?api_key=Lvq2wzAwzC6r8gvvb052EFxKH1boCbSescq0iLIu&hd=true";

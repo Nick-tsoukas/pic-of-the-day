@@ -1,0 +1,11 @@
+.space_pic {
+    max-height: 300px;
+}
+
+/* mobile css styles */
+@media only screen and (max-device-width: 480px) {
+    .space_pic {
+        max-height:200px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,61 @@
+note about the eonet application program interface
+
+id,
+title 
+description 
+link 
+categories 
+sources 
+geometries 
+closed
+
+categories 
+are the types of events by which individual events are cataloged .
+Cats can be used to filter the output of the categories and the layers api 
+the acceptable cats can be accessed via the cat json 
+
+this is the end point I want to work with 
+
+nasa.ob/api/v2.1/events 
+
+add the status query 
+how can I get both open and closed events 
+
+Get open and closed 
+
+
+
+Request has a query property and you can access it with request.query
+The first query begins with ? and any other queries will be proceeded by the $ key 
+
+EONET 
+
+can you search events by catagories ?
+
+return res.send will end the response at that code block. This is a common express pattern 
+
+building http endpoint 
+
+heroku guide 
+================
+
+1. heroku create <name>
+tsoukas-weather app is an example of app name 
+
+2. heroku deploy 
+
+must go to package.json 
+change the script 
+"start" "mode src/app.js"
+
+app.listen = process.env.PORT || 3000
+
+get into the public dir fetch should not have localhost
+
+push code to heroku 
+
+heroku will setup remotes for you heroku and origin 
+
+to add feature push code to 
+git push origin master ... our git hub 
+fit push origin heroku ... our heroku app 
